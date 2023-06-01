@@ -33,7 +33,7 @@
 <body>
 <div align="center">
     <h1>User Registration</h1>
-    <form action="#" th:action="@{/register}" method="post" th:object="${user}">
+    <form action="#" th:action="@{/users/register}" method="post" th:object="${user}">
         <label>Full name:</label>
         <input type="text" th:field="*{name}"/><br/>
 
@@ -62,7 +62,7 @@
 
         <button type="submit">Register</button>
     </form>
-    <a href="/show-all">Show all users</a>
+    <a href="/users/show-all">Show all users</a>
 </div>
 </body>
 </html>

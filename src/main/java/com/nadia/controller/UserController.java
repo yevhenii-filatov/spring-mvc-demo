@@ -1,14 +1,15 @@
 package com.nadia.controller;
 
-import com.nadia.UserService;
 import com.nadia.model.Profession;
 import com.nadia.model.User;
+import com.nadia.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.Arrays;
 
@@ -19,6 +20,7 @@ import java.util.Arrays;
 
 @Controller
 @RequiredArgsConstructor
+@RequestMapping("/users")
 public class UserController {
     private static final String REGISTER_URL = "/register";
     private static final String SHOW_ALL_URL = "/show-all";

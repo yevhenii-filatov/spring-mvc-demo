@@ -1,4 +1,4 @@
-package com.nadia;
+package com.nadia.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nadia.model.User;

@@ -1,2 +1,3 @@
 {"name":"Yevhenii","email":"e.@t.com","password":"123","gender":"MALE","note":"some note","married":true,"profession":"MANAGER"}
 {"name":"Nadia","email":"n.@t.com","password":"432","gender":"FEMALE","note":"another note","married":true,"profession":"DEVELOPER"}
+{"name":"Vasya","email":"vasya@gmail.com","password":"qwerty","gender":"MALE","note":"cool Vasily","married":false,"profession":"DIRECTOR"}
