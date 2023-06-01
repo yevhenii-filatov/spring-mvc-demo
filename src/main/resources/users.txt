@@ -1,2 +1,2 @@
-User(name=aa, email=bb, password=123, gender=MALE, note=sss, married=true, profession=Developer)
-User(name=33, email=44, password=555, gender=FEMALE, note=tebdb, married=true, profession=Manager)
+{"name":"Yevhenii","email":"e.@t.com","password":"123","gender":"MALE","note":"some note","married":true,"profession":"MANAGER"}
+{"name":"Nadia","email":"n.@t.com","password":"432","gender":"FEMALE","note":"another note","married":true,"profession":"DEVELOPER"}

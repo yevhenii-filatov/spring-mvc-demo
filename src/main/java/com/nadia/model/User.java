@@ -3,8 +3,6 @@ package com.nadia.model;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 
-import java.util.Date;
-
 /**
  * @author Yevhenii Filatov
  * @since 5/30/23

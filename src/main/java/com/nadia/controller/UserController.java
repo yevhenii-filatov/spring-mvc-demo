@@ -21,6 +21,7 @@ import java.util.Arrays;
 @RequiredArgsConstructor
 public class UserController {
     private static final String REGISTER_URL = "/register";
+    private static final String SHOW_ALL_URL = "/show-all";
     private final UserService userService;
 
     @GetMapping(REGISTER_URL)
@@ -29,6 +30,12 @@ public class UserController {
         model.addAttribute("user", user);
         model.addAttribute("professions", Arrays.asList(Profession.values()));
         return "registration_form";
+    }
+
+    @GetMapping(SHOW_ALL_URL)
+    public String showAll(Model model) {
+        model.addAttribute("allUsers", userService.getAll());
+        return "all_users";
     }
 
     @PostMapping(REGISTER_URL)
